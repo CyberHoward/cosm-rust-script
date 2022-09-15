@@ -1,3 +1,5 @@
+> This library is no longer in active developement. Use [BOOT](https://github.com/Abstract-OS/BOOT) instead!
+
 # Cosmos Rust Script
 
 Smart contract scripting library to ease [CosmWasm](https://cosmwasm.com/) smart contract development and deployment.
