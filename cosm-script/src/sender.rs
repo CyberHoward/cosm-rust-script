@@ -95,7 +95,7 @@ impl<C: Signing + Context> Sender<C> {
         msgs: Vec<T>,
         memo: Option<&str>,
     ) -> Result<CosmTxResponse, CosmScriptError> {
-        let timeout_height = 900124u32;
+        let timeout_height = 2222222222u32;
         let msgs: Result<Vec<Any>, _> = msgs.into_iter().map(Msg::into_any).collect();
         let msgs = msgs?;
         let gas_denom = self.network.gas_denom.clone();
